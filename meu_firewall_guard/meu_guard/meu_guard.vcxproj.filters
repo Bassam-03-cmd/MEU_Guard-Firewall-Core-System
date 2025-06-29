@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\common\ndisapi\fastio_packet_filter.h">
+      <Filter>common\ndisapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\pcap\pcap.h">
+      <Filter>common\pcap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\pcap\pcap_file_storage.h">
+      <Filter>common\pcap</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\firewall_core\packetInformation.h">
+      <Filter>common\firewall_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\firewall_core\rule.h">
+      <Filter>common\firewall_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\firewall_core\ruleExecuter.h">
+      <Filter>common\firewall_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\ndisapi\queued_packet_filter.h">
+      <Filter>common\ndisapi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\firewall_core\linearRuleExecuter.h">
+      <Filter>common\firewall_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\database\databaseConnection.h">
+      <Filter>common\database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\database\ruleDAO.h">
+      <Filter>common\database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\database\logDAO.h">
+      <Filter>common\database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\logging\logger.h">
+      <Filter>common\logging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\NAT\NATTable.h">
+      <Filter>common\NAT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\NAT\applyNAT.h">
+      <Filter>common\NAT</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+    <None Include="vcpkg-configuration.json" />
+    <None Include="vcpkg.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{9bae2352-c778-4a23-868b-e7eacf9211b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\ndisapi">
+      <UniqueIdentifier>{81434ea2-272d-4d2c-a96b-694aa51ed6b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\firewall_core">
+      <UniqueIdentifier>{91732864-f94d-484e-a9c8-2d0e85ff2655}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\pcap">
+      <UniqueIdentifier>{3746ec00-b1fd-4780-acb8-4ded0491f96c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{ad35bedd-d2da-4ecc-a74d-8336440b7d0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\database">
+      <UniqueIdentifier>{b48d3b80-39b6-4ba8-af33-26028acdaf85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\logging">
+      <UniqueIdentifier>{cbeb38f2-e91f-4599-ad65-3e5bd5d4d333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\NAT">
+      <UniqueIdentifier>{84edb265-3f50-46ba-b393-0131d5458bac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
